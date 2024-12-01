@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border: 1px solid black;
+    padding: 10px 18px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+}
+.form__title{
+    color: rgb(38, 38, 59);
+    font-weight: 900;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.form__textarea{    
+    height: 100px;
+    font-size: 21px;
+}
+.btn{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 121, 235);
+    color: #fff;
+    font-size: 21px;
+}
+.form__result{
+    text-align: center;
+    font-size: 32px;
+}
+.form__btnCopy{
+    margin-bottom: 40px;
+}
